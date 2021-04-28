@@ -1,0 +1,18 @@
+
+/*設定整體字型*/
+.container {
+	font-family: Helvetica;
+	
+}
+
+.title {
+	font-size:20px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.title_line {
+	border-color:#ffffff;
+	margin-bottom: 50px;
+}
+

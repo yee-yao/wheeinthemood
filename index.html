@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>wheeinthemood</title>
+   <!-- css連結 -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+
+	    <style>
+         body {
+            height:3000px;
+         }
+         .redd-char {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/reddbg.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(3px);
+         }
+      </style>
+     
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+	   <script src="js/skrollr.min.js"></script>
+</head>
+
+<body>
+
+<!--背景圖-->
+<div id="bg-block"></div>
+	  
+   <!--Redd標題-->  
+   <div class="redd-char" style="top:150px;width:100%;text-align:center">
+      <img src="images/reddtitle.png" style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-50="opacity: 1;-webkit-filter: blur(0px);" data-100="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between">
+   </div>
+
+   <!--Redd tracklist-->  
+   <div class="redd-char" style="top:600px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">TRACKLIST</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <img src="images/tracklist1.jpg" style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-600="opacity: 1;-webkit-filter: blur(0px);" data-700="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between">
+      </div>
+   </div>
+
+   <!--Redd Concept Film-->
+   <div class="redd-char" style="top:1100px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">Concept Film</p>
+               <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/GuP52AiOgBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-1100="opacity: 1;-webkit-filter: blur(0px);" data-1200="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>
+   </div>
+
+<!--POSTER-->
+<div class="redd-char" style="top:1600px;width:100%;text-align:center">
+   <div class="container">
+      <div class="row">
+         <div class="col-12">
+            <p class="title text-center">POSTER</p>
+            <hr class="title_line">
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-lg-3 col-md-6 col-12 mb-3">
+            <div class="card">
+               <!--test-->
+               <div data-1600="opacity: 1;-webkit-filter: blur(0px);" data-1700="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between">
+                  <a data-fancybox="gallery" href="images/post1.jpeg">
+                     <img src="images/smpost1.jpeg" class="img-fluid"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-12 mb-3">
+            <div class="card">
+               <div data-1600="opacity: 1;-webkit-filter: blur(0px);" data-1700="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between">
+                  <a data-fancybox="gallery" href="images/post2.jpg">
+                     <img src="images/smpost2.jpg" class="img-fluid"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-12 mb-3">
+            <div class="card">
+               <div data-1600="opacity: 1;-webkit-filter: blur(0px);" data-1700="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between">
+                  <a data-fancybox="gallery" href="images/post3.jpg">
+                     <img src="images/smpost3.jpg" class="img-fluid"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-12 mb-3">
+            <div class="card">
+               <div data-1600="opacity: 1;-webkit-filter: blur(0px);" data-1700="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between">
+                  <a data-fancybox="gallery" href="images/post4.jpg">
+                     <img src="images/post4.jpg" class="img-fluid"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+   
+   <!--watercolor MV-->
+   <div class="redd-char" style="top:2050px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">O1 WATER COLOR</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/ShFKF2YN7H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-2050="opacity: 1;-webkit-filter: blur(0px);" data-2150="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>   
+   </div>
+
+   <!--trash MV-->
+   <div class="redd-char" style="top:2550px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">O2 TRASH</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/V5qEbFwFiUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-2550="opacity: 1;-webkit-filter: blur(0px);" data-2650="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>
+   </div>
+
+   <!--OHOO MV-->
+   <div class="redd-char" style="top:3050px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">O3 OHOO</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/RdweWTPj0xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-3050="opacity: 1;-webkit-filter: blur(0px);" data-3150="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>
+   </div>
+
+   <!--Butterfly MV-->
+   <div class="redd-char" style="top:3550px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">O4 BUTTERFLY</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/KSbpmO6Z4GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-3550="opacity: 1;-webkit-filter: blur(0px);" data-3650="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>
+   </div>
+
+   <!--Spring time MV-->
+   <div class="redd-char" style="top:4050px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">O5 SPRING TIME</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/RKThHoKwDL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-4050="opacity: 1;-webkit-filter: blur(0px);" data-4150="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>
+   </div>
+
+   <!--No thanks MV-->
+   <div class="redd-char" style="top:4550px;width:100%;text-align:center">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="title text-center">O6 NO THANKS</p>
+                  <hr class="title_line">
+            </div>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/Tw13igw9sjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-4550="opacity: 1;-webkit-filter: blur(0px);" data-4650="opacity: 0.5;-webkit-filter: blur(3px);" class="skrollable skrollable-between"></iframe>
+      </div>
+   </div>
+
+   <!-- JS連結 -->
+   <script src="js/jQuery.js"></script>
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/bootstrap.min.js.map"></script>
+   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+   <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+   </script>
+   
+</body>
+</html>
